@@ -1,6 +1,8 @@
 package edu.neu.csye7374.prototypes;
 
-public class APlusPrototype {
+import edu.neu.csye7374.api.GraphPrototypeAPI;
+
+public class APlusPrototype extends GraphPrototypeAPI{
 	
 	@Override
 	public void showMagnitude(int value) {
@@ -11,7 +13,7 @@ public class APlusPrototype {
 	@Override
 	public void showMagnitude(double value) {
 		// TODO Auto-generated method stub
-		int val = value;
+		int val = (int)value;
 		showMagnitude(val);
 	}
 	
