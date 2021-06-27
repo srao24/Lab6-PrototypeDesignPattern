@@ -8,7 +8,7 @@ public class AComercialAtPrototype extends GraphPrototypeAPI {
 	@Override
 	public void showMagnitude(int value) {
 	StringBuilder sb = new StringBuilder();
-	sb.append("["+value+"]:");
+	sb.append("["+value+"]:  ");
 	for(int i=0;i<value;i++) {
 		sb.append("@");
 	}

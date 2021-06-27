@@ -8,7 +8,7 @@ public class AnXPrototype extends GraphPrototypeAPI {
     public void showMagnitude(int value) {
         // TODO Auto-generated method stub
         StringBuffer buf = new StringBuffer();
-        buf.append("[" + value + "]");
+        buf.append("[" + value + "]  ");
         for (int i = 0; i < value; i++) {
             buf.append("X");
         }
